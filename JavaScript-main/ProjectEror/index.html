@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="function.js"></script>
+    <script src="js/matrix.js"></script>
+    <script src="js/calculator.js"></script>
+</head>
+<body>
+
+    <div class="MainMenu">
+        <div class="main_buttons">
+            <table>
+                <tr>
+                    <td><div class="bt calculator-main">Калькулятор</div></td>
+                    <td><div class="bt me">Эссе</div></td>
+                    <td><div class="bt Matrix">Матрицы</div></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div>   
+        <div class="Matrix content hide">
+            <h2>Матрицы</h2>
+            <input id="matrix-size">
+            <div>
+                <button class="matrix-get" data-method="getZeroMatrix">Нулевая матрица</button>
+                <button class="matrix-get" data-method="getOneMatrix">Единичная матрица</button>
+            </div>
+            <div id="matrix-result"></div>
+        </div>
+    </div>
+    
+    <div id = 'calc' class="calculator">
+        <p>Калькулятор</p>
+        
+        <div class="display">
+            <input id="calc-input">
+        </div>
+        
+            <div class="buttons">
+                <table>
+                <tr>
+                    <td><div class="but divin-light dark-gray big" data-number="">CA</div></td>
+                    <td><div class="but plus-minus dark-gray" data-number="3">+/-</div></td>
+                    <td><div class="but division dark-gray" data-number="div">/</div></td>
+                </tr>
+                </table>
+
+                <table>
+                <tr>
+                    <td><div class="but seven gray" data-number="7">7</div></td>
+                    <td><div class="but eight gray" data-number="8">8</div></td>
+                    <td><div class="but nine gray" data-number="9">9</div></td>
+                    <td><div class="but multy dark-gray" data-number="mult">x</div></td>
+                </tr>
+                </table>
+
+                <table>
+                <tr>
+                    <td><div class="but four gray" data-number="4">4</div></td>
+                    <td><div class="but five gray" data-number="5">5</div></td>
+                    <td><div class="but six gray" data-number="6">6</div></td>
+                    <td><div class="but minus dark-gray" data-number="sub">-</div></td>
+                </tr>
+                </table>
+
+                <table>
+                <tr>
+                    <td><div class="but one gray" data-number="1">1</div></td>
+                    <td><div class="but two gray" data-number="2">2</div></td>
+                    <td><div class="but three gray" data-number="3">3</div></td>
+                    <td><div class="but plus dark-gray"data-number="sum">+</div></td>
+                </tr>
+                </table>
+
+                <table>
+                <tr>
+                    <td><div class="but dot gray" data-number=".">.</div></td>
+                    <td><div class="but zero gray" data-number="0">0</div></td>
+                    <td><div class="but calculate li-gray big" data-number="=">=</div></td>
+                </tr>
+                </table>
+            </div>
+            
+        
+    </div>
+</body>
+</html>
