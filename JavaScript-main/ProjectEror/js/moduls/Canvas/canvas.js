@@ -40,5 +40,11 @@ function Canvas(options){
         context.closePath();
         context.stroke();
     }
+
+    this.text = function(x, y, text, color = '#000', font = '24px arial'){
+        context.font = font;
+        context.fillStyle = color;
+        context.fillRect(text,xs(x),yx(y));
+    }
 }
 

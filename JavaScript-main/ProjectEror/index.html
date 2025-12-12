@@ -8,30 +8,30 @@
     <script src="js/moduls/Calculator/calculator.js"></script>
     <script src="js/moduls/Canvas/canvas.js"></script>
     <script src="js/moduls/Matrix/matrix.js"></script>
-    <script src="js/moduls/Target/"></script>
 
-    <script src="js/pages/function.js"></script>
-    <script src="js/pages/Groph2dPage.js"></script>
+
+    <script src="js/pages/Graph2DPage.js"></script>
     <script src="js/pages/Tabs.js"></script>
     <script src="js/pages/CalculatorPage.js"></script>
+    <script src="js/pages/matrix.js"></script>
+
+    <script src="js/main.js"></script>
 </head>
 <body>
+    <div class="tabs">
+        <table>
+            <tr>
+                <td><div data-content-class="calculator" class="bt calculator-main active">Калькулятор</div></td>
+                <td><div data-content-class="essay" class="bt me">Эссе</div></td>
+                <td><div data-content-class="matrix" class="bt Matrix">Матрицы</div></td>
+                <td><div data-content-class="graphics" class="bt graph2d">Графики 2D</div></td>
+            </tr>
+        </table>
+     </div>
 
-    <div class="MainMenu">
-        <div class="main_buttons">
-            <table>
-                <tr>
-                    <td><div class="bt calculator-main">Калькулятор</div></td>
-                    <td><div class="bt me">Эссе</div></td>
-                    <td><div class="bt Matrix">Матрицы</div></td>
-                    <td><div class="bt graph2d">Графики 2D</div></td>
-                </tr>
-            </table>
-        </div>
-    </div>
 
     <div>   
-        <div class="Matrix content hide">
+        <div class="matrix content hide">
             <h2>Матрицы</h2>
             <input id="matrix-size">
             <div>

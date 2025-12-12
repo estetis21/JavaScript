@@ -1,7 +1,6 @@
 window.onload = function(){
-    (new Graph2pPage()).init();
-    (new ShotPage()).init();
-    (new CalculatorPage()).init();
-    (new MatrixPage()).init();
+    //(new CalculatorPage()).init();
+    //(new matrix()).init();
     (new Graph2DPage()).init();
+    (new Tabs()).init();
 }
